@@ -7,9 +7,9 @@ import time
 
 def main():
     
-    NAME = 'Angel'
+    NAME = 'mar'
     player_id = utils.register(NAME)
-    # print(player_id)
+    print(player_id)
 
 
     my_turn = utils.is_my_turn(player_id)
